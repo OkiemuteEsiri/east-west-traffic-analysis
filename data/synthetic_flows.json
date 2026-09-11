@@ -1,0 +1,9 @@
+[
+  {"flow_id":"F001","timestamp":"2026-09-11T08:00:00Z","src_asset":"WS-101","dst_asset":"DB-01","src_zone":"user","dst_zone":"database","protocol":"tcp","dst_port":5432,"bytes_out":120000,"user":"lab.user","approved":false},
+  {"flow_id":"F002","timestamp":"2026-09-11T08:02:00Z","src_asset":"WS-101","dst_asset":"SRV-01","src_zone":"user","dst_zone":"server","protocol":"tcp","dst_port":3389,"bytes_out":50000,"user":"lab.user","approved":false},
+  {"flow_id":"F003","timestamp":"2026-09-11T08:03:00Z","src_asset":"WS-101","dst_asset":"SRV-02","src_zone":"user","dst_zone":"server","protocol":"tcp","dst_port":3389,"bytes_out":48000,"user":"lab.user","approved":false},
+  {"flow_id":"F004","timestamp":"2026-09-11T08:04:00Z","src_asset":"WS-101","dst_asset":"MGMT-01","src_zone":"user","dst_zone":"management","protocol":"tcp","dst_port":22,"bytes_out":22000,"user":"lab.user","approved":false},
+  {"flow_id":"F005","timestamp":"2026-09-11T09:00:00Z","src_asset":"APP-01","dst_asset":"DB-01","src_zone":"server","dst_zone":"database","protocol":"tcp","dst_port":5432,"bytes_out":250000,"user":"svc-app","approved":true},
+  {"flow_id":"F006","timestamp":"2026-09-11T10:00:00Z","src_asset":"WS-205","dst_asset":"FS-01","src_zone":"user","dst_zone":"server","protocol":"tcp","dst_port":445,"bytes_out":75000000,"user":"lab.analyst","approved":false},
+  {"flow_id":"F007","timestamp":"2026-09-11T11:00:00Z","src_asset":"BACKUP-01","dst_asset":"DB-01","src_zone":"backup","dst_zone":"database","protocol":"tcp","dst_port":5432,"bytes_out":150000000,"user":"svc-backup","approved":true}
+]
